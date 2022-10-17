@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 25px;
+    font-family: var(--font1);
+    height: 74px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navleft {
+
+    display: flex;
+}
+
+.navleft span {
+    font-size: 35px;
+
+
+}
+
+.navleft ul {
+
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+}
+
+.navleft ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in;
+}
+
+.navleft ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.navleft ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.content {
+    height: 395px;
+    /* background-color: rgb(235, 235, 250); */
+    display: flex;
+    margin-top: 102px;
+
+}
+
+.content::after {
+    content: "";
+    background-image: url('../img/src3.jpg');
+    position: absolute;
+    width: 625px;
+    height: 400px;
+    opacity: 0.2;
+    
+}
+
+.content-left {
+    font-family: var(--font1);
+
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 255px;
+    border: 2px solid black;
+    border-radius: 200%
+}
+
+
+
+.form-input {
+    padding: 0px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 4px;
+    font-family: var(--font1);
+
+}
+
+.btn {
+    padding: 0px 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover {
+    color: white;
+    background: var(--main-bg-color);
+}
+
+.home-articles {
+
+    /* background-color: rgb(232, 191, 191)  */
+    padding: 12px;
+}
+
+.home-article {
+    display: flex;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: var(--main-bg-color);
+}
+
+.home-article-img img {
+    width: 350px;
+    border-radius: 100%;
+}
+
+.footer {
+    height: 50px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}

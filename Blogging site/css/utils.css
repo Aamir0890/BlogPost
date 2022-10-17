@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Roboto&display=swap');
+
+:root {
+    --main-bg-color: rgb(246, 191, 246);
+    --font1: 'Baloo 2', cursive;
+    --font2: 'Roboto', sans-serif;
+}
+
+.font1 {
+    font-family: var(--fot);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+.my-2{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.btn {}
+
+.form-control {}
+.form-box input,textarea{
+    width: 52vw;
+    padding: 7px 0px;
+    margin: 7px 0px;
+
+}

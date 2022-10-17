@@ -1,0 +1,18 @@
+.contact-content {
+    height: 395px;
+    /* background-color: rgb(235, 235, 250); */
+    display: block;
+    margin-top: 102px;
+   
+
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url('../img/src3.jpg');
+    position: absolute;
+    width: 625px;
+    height: 400px;
+    opacity: 0.2;
+    z-index: -1;
+}
